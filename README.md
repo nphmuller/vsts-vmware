@@ -13,3 +13,12 @@
     - Ensure you have node.js installed
     - code build - gulp
     - test run - gulp test
+    
+# To package
+    
+    - Run 'gulp'.
+    - Run 'mvn package'.
+    - Clean node modules and restore production packages with 'npm install --production'.
+    - Copy node_modules to build directory.
+    - Deploy task with tfx.
+    
